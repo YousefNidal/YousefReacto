@@ -26,8 +26,8 @@ const Contact = () => {
                     </div>
                     <div className="left">
                         {contact.map((item,i) => (
-                            <>
                             <div className="box" key={i}>
+                            
                                 <i>
                                     {item.icon}
                                 </i>
@@ -35,7 +35,7 @@ const Contact = () => {
                                 <p>{item.text2}</p>
 
                             </div>
-                            </>
+                            
                         ))}
                     </div>
             </div>

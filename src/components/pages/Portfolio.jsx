@@ -28,8 +28,8 @@ const Protofolio = () => {
         <Heading title={'Portfolio'} />
        
         <div className="catButton">
-          {category.map((category) => (
-            <button className='primaryBtn' onClick={()=> filterItems
+          {category.map((category,i) => (
+            <button className='primaryBtn' key={i} onClick={()=> filterItems
               (category)
             }> {category} </button>
           ))}
@@ -37,8 +37,8 @@ const Protofolio = () => {
       
       <div className="content grid3">
         {list.map((items,i) => (
-          <>
-          <div className="box" key={i}>
+          <div className="box" key={items.id}>
+          
             <div className="img">
               <img src={items.cover} alt="" />
             </div>
@@ -50,7 +50,7 @@ const Protofolio = () => {
           </div>
 
 
-          </>
+         
         ))}
       </div>
       </div>

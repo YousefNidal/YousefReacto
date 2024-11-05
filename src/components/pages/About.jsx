@@ -12,7 +12,8 @@ function About() {
     <div className="container flex">
         {
             about.map((val,i) => (
-                <>
+                <span key={i}>
+                
                 <div className="left">
                     <img src={val.cover} alt="" />
                 </div>
@@ -24,7 +25,7 @@ function About() {
                     <button className='primaryBtn'>Download CV</button>
 
                 </div>
-                </>
+                </span>
             ))
         }
     </div>

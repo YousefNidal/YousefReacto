@@ -9,7 +9,7 @@ const Counter = () => {
     <div className="hero counter">
     <div className="container grid3 grid4">
         {project.map((item,i) => (
-       <div className="box">
+       <div className="box" key={i}>
            <i>{item.icon}</i>
            <h1 className='heading'>
 

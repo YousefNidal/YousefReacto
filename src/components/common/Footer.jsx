@@ -7,10 +7,10 @@ const Footer = () => {
     
 
         <footer>
-            {social.map((item)=> (
-                <>
-                <i>{item.icon}</i>
-                </>
+            {social.map((item,i)=> (
+                
+                <i key={i}>{item.icon}</i>
+                
             ))}
             <p>All Rights Rescved 2024</p>
         </footer>

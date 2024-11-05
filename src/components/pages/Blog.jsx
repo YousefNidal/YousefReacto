@@ -11,8 +11,8 @@ const Blog = () => {
             <Heading title={'Blog'} />
             <div className="content grid3">
             {blog.map((item, i) => (
-                <>
                 <div className="box" key={i}>
+               
                     <div className="img">
                         <img src={item.cover} alt="" />
                     </div>
@@ -23,7 +23,7 @@ const Blog = () => {
                     </div>
                 </div>
 
-                </>
+                
             ) )}
             </div>
         </div>
