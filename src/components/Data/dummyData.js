@@ -42,7 +42,7 @@ export const about = [
   {
     desc: "I'm a dedicated Computer Engineering student with a strong foundation in frontend development. My journey in tech began with a curiosity about how websites work, which evolved into a passion for building responsive, user-friendly interfaces. I believe in writing clean, maintainable code and continuously expanding my skill set.",
     desc1: "When I'm not coding, you can find me contributing to open-source projects, learning new technologies, or volunteering in my community. I'm excited to bring my technical skills and fresh perspective to a professional team environment.",
-    cover: "./images/man.png",
+    cover: "./images/yousef.png",
   },
 ]
 export const services = [
