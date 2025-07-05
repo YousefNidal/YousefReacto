@@ -535,3 +535,123 @@ footer {
 
 
    }
+
+
+
+
+   /* Add this to your existing CSS */
+
+/* Fix for hero section on mobile */
+@media screen and (max-width: 768px) {
+  .hero h1 {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+  
+  .heroContainer {
+    max-width: 90%;
+    padding: 20px;
+  }
+  
+  .hero::after {
+    background-attachment: scroll;
+  }
+}
+
+/* Fix image responsiveness */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Testimonials fixes */
+.testimonials .box {
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .testimonials .box {
+    max-width: 90%;
+  }
+  
+  .testimonials .img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .testimonials img {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+/* Counter section fixes */
+@media screen and (max-width: 768px) {
+  .counter .grid4 {
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+    padding: 30px 0;
+  }
+  
+  .hero.counter::after {
+    height: auto;
+  }
+
+  .flex-sm {
+    flex-direction: column;
+  }
+}
+
+/* About section fixes */
+.about .left img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 992px) {
+  .about .left {
+    margin-bottom: 30px;
+  }
+  .hero.testimonials {
+    height: 70vh;
+  }
+}
+
+@media (min-width: 769px) and (max-width:1024px) {
+    .hero.counter {
+        margin-top: 190px;
+    }
+}
+
+/* General spacing fixes */
+section {
+  padding: 60px 0;
+}
+
+/* Button fixes */
+button, .primaryBtn {
+  white-space: nowrap;
+  padding: 12px 30px;
+}
+
+@media screen and (max-width: 468px) {
+  button, .primaryBtn {
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+}
+
+@media screen and (max-width: 398px) { 
+.typewriter-small {
+    height: 75px;
+  }
+
+  .container {
+    margin-top: 30px;
+  }
+
+}
+

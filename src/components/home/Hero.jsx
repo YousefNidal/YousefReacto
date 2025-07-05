@@ -1,23 +1,13 @@
-import React from 'react'
-import { home } from '../Data/dummyData'
-import Typewriter from 'typewriter-effect'
+import React from 'react';
+import { home } from '../Data/dummyData';
+import Typewriter from 'typewriter-effect';
+import {
+  
+    Link
+} from "react-router-dom"
 
 function Hero() {
-  const handleDownloadCV = () => {
-    // Using the public folder approach
-    try {
-      const link = document.createElement('a');
-      link.href = `${process.env.PUBLIC_URL}/Yousef_Nidal.pdf`;
-      link.download = 'Yousef_Nidal.pdf';
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-    } catch (error) {
-      console.error('Error downloading CV:', error);
-      // Fallback: Open in new tab if download fails
-      window.open(`${process.env.PUBLIC_URL}/Yousef_Nidal.pdf`, '_blank');
-    }
-  };
+  
 
   return (
     <>
@@ -25,7 +15,7 @@ function Hero() {
         {home.map((val, i) => (
           <div className='heroContainer' key={i}>
             <h3>{val.text}</h3>
-            <h1>
+            <h1 className='typewriter-small'>
               <Typewriter options={{
                 strings: [`${val.name}`, `${val.post}`],
                 autoStart: true,
@@ -33,14 +23,15 @@ function Hero() {
               }} />
             </h1>
             <p>{val.desc}</p>
-            <button className='primaryBtn' onClick={handleDownloadCV}>
-              Download CV
-            </button>
+            <Link to="/about">
+            <button className='primaryBtn'  >
+              About me
+            </button></Link>
           </div>
         ))}
       </section>
     </>
-  )
+  );
 }
 
-export default Hero
+export default Hero;

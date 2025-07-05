@@ -36,7 +36,7 @@ const Contact = () => {
           <div className="content flexsb">
             <div className="right">
               <form onSubmit={handleSubmit}>
-                <div className="flex">
+                <div className="flex flex-sm">
                   <input 
                     type="text" 
                     name="name" 

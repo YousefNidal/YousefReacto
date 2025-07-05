@@ -156,25 +156,26 @@ export const portfolio = [
 export const testimonials = [
   {
     id: 1,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
+    text: "Mahdi demonstrated exceptional React skills during our college project collaboration. His clean code approach and attention to UI details resulted in a highly responsive student portal that exceeded our expectations. He's a quick learner and team player.",
     image: "./images/testimonials/team-1.png",
-    name: "Alamin Musa",
-    post: "Front End Developer",
+    name: "Dr. Sarah Johnson",
+    post: "Computer Science Professor",
   },
   {
     id: 2,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
+    text: "Working with Mahdi on the volunteer management system was a pleasure. His Figma designs were pixel-perfect and he implemented them flawlessly using React and Material UI. He consistently met deadlines and proposed innovative solutions to technical challenges.",
     image: "./images/testimonials/team-2.png",
-    name: "Alex Ander",
-    post: "Back End Developer",
+    name: "Mohammed Al-Farsi",
+    post: "NGO Project Coordinator",
   },
   {
     id: 3,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
+    text: "As a fellow student in our coding bootcamp, Mahdi stood out for his problem-solving skills. His ability to break down complex JavaScript concepts helped our entire study group. His portfolio projects showcase impressive attention to responsive design principles.",
     image: "./images/testimonials/team-3.png",
-    name: "GorkCoder",
-    post: "React Developer",
+    name: "Elena Petrov",
+    post: "Full Stack Developer",
   },
+  
 ]
 export const blog = [
   {
@@ -205,18 +206,19 @@ export const blog = [
 export const contact = [
   {
     icon: <AddLocationAltOutlined />,
-    text1: "2651 Main Street, Suit 124",
-    text2: "Seattle, WA, 98101",
+    text1: "Navapolatsk, Vitsebsk Region, Belarus",
+    
   },
   {
     icon: <PhoneIphone />,
-    text1: "0123456789",
-    text2: "0345627891",
+    text1: "+375259123937",
+    
   },
   {
     icon: <EmailOutlined />,
-    text1: "hello@thetheme.io",
-    text2: "inf0@brex-theme.io",
+    text1: "ameryousef2007@gmail.com",
+    text2: "kiritosmahdi2007@gmail.com"
+    
   },
 ]
 export const social = [
