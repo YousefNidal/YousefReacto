@@ -35,14 +35,13 @@ export const home = [
     text: "HELLO I'M",
     name: "Mahdi Yousef Nidal",
     post: "Front-end Developer",
-    design: "UI / UX DESIGNER",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    desc: "Computer Engineering student with a passion for creating beautiful, functional web interfaces. I specialize in React.js and modern frontend development. Currently seeking my first professional opportunity to apply my skills and grow as a developer.",
   },
 ]
 export const about = [
   {
-    desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
-    desc1: "magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor si voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
+    desc: "I'm a dedicated Computer Engineering student with a strong foundation in frontend development. My journey in tech began with a curiosity about how websites work, which evolved into a passion for building responsive, user-friendly interfaces. I believe in writing clean, maintainable code and continuously expanding my skill set.",
+    desc1: "When I'm not coding, you can find me contributing to open-source projects, learning new technologies, or volunteering in my community. I'm excited to bring my technical skills and fresh perspective to a professional team environment.",
     cover: "./images/man.png",
   },
 ]
@@ -50,38 +49,38 @@ export const services = [
   {
     id: 1,
     icon: <Settings />,
-    title: "Creative Design",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    title: "Figma Design",
+    desc: "Professional UI/UX designs created with Figma, including wireframes, prototypes, and design systems for web and mobile applications",
   },
   {
     id: 2,
     icon: <CropRotate />,
     title: "Clean Code",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    desc: "Well-structured, maintainable code following best practices and modern development standards",
   },
   {
     id: 3,
     icon: <ViewInAr />,
     title: "Responsive Design",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    desc: "Websites that look and function perfectly on all devices, from mobile to desktop",
   },
   {
     id: 4,
     icon: <PieChart />,
-    title: "Material UI	",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    title: "Material UI",
+    desc: "Implementation of Material Design principles for cohesive, intuitive interfaces",
   },
   {
     id: 5,
     icon: <Code />,
-    title: "Material UI Icons",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    title: "React Development",
+    desc: "Building dynamic single-page applications using React.js and related ecosystem",
   },
   {
     id: 6,
     icon: <BarChart />,
-    title: "Awesome Support",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    title: "Technical Support",
+    desc: "Dedicated assistance and problem-solving for your web development needs",
   },
 ]
 export const project = [
@@ -180,26 +179,26 @@ export const testimonials = [
 export const blog = [
   {
     id: 1,
-    title: "Master These Awesome",
+    title: "Mastering React Hooks",
     date: "Jun 27, 2022",
-    author: "Dorian Gray",
-    desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
+    author: "Mahdi Nidal",
+    desc: "Exploring how React Hooks have revolutionized state management in functional components and best practices for implementation",
     cover: "./images/blog/b1.png",
   },
   {
     id: 2,
-    title: "Best Design Items to Appeal",
+    title: "CSS Best Practices in 2022",
     date: "Jun 27, 2022",
-    author: "Dorian Gray",
-    desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
+    author: "Mahdi Nidal",
+    desc: "Modern CSS techniques including Flexbox, Grid, and CSS-in-JS solutions for more efficient styling",
     cover: "./images/blog/b2.png",
   },
   {
     id: 3,
-    title: "The 20 Best Lightroom Presets",
+    title: "Building Accessible Web Apps",
     date: "Jun 27, 2022",
-    author: "Dorian Gray",
-    desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
+    author: "Mahdi Nidal",
+    desc: "Essential accessibility considerations every frontend developer should implement in their projects",
     cover: "./images/blog/b3.png",
   },
 ]
