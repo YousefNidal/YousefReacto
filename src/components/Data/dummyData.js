@@ -112,46 +112,45 @@ export const project = [
 export const portfolio = [
   {
     id: 1,
-    cover: "../images/port/port1.jpg",
-    name: "Brand",
-    category: "marketing",
-    title: "Brex Logo",
+    cover: "../images/port/humanStructure.jpg",
+    name: "Human Structure interface for kids",
+    category: "React",
+    title: "React app",
+    link:'https://human-structure.vercel.app/'
   },
   {
     id: 2,
-    cover: "../images/port/port2.jpg",
-    name: "Brand",
-    category: "design",
-    title: "Brex Logo",
+    cover: "../images/port/Sentra.png",
+    name: "Beautiful template Sentra",
+    category: "Css",
+    title: "Html css project",
+    link:'https://beautiful-template-sentra.vercel.app/'
   },
   {
     id: 3,
-    cover: "../images/port/port3.jpg",
-    name: "Brand",
-    category: "development",
-    title: "Brex Logo",
+    cover: "../images/port/leend.png",
+    name: "Leend project",
+    category: "React",
+    title: "React app",
+    link:'https://just-a-project-beta.vercel.app/'
   },
   {
     id: 4,
-    cover: "../images/port/port4.jpg",
-    name: "Brand",
-    category: "marketing",
-    title: "Brex Logo",
+    cover: "../images/port/atomnaia.png",
+    name: "Atomnaia Station",
+    category: "NextJs",
+    title: "Next js app",
+    link:'https://kizu-7nsx.vercel.app/'
   },
   {
     id: 5,
-    cover: "../images/port/port5.jpg",
-    name: "Brand",
-    category: "design",
-    title: "Brex Logo",
+    cover: "../images/port/logshoes.png",
+    name: "Shoes website",
+    category: "Css",
+    title: "Html css app",
+    link:'https://shoes-website-one-rosy.vercel.app/'
   },
-  {
-    id: 6,
-    cover: "../images/port/port6.jpg",
-    name: "Brand",
-    category: "development",
-    title: "Brex Logo",
-  },
+  
 ]
 export const testimonials = [
   {

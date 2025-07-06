@@ -37,16 +37,20 @@ const Protofolio = () => {
       
       <div className="content grid3">
         {list.map((items,i) => (
-          <div className="box" key={items.id}>
-          
+          <div  className="box" key={items.id}>
+          <a href={items.link}>
             <div className="img">
-              <img src={items.cover} alt="" />
+              
+                <img src={items.cover} alt="" />
+              
             </div>
             <div className="overlay">
               <h3>{items.title}</h3>
               <span>{items.name}</span>
               <Visibility />
             </div>
+
+            </a>
           </div>
 
 

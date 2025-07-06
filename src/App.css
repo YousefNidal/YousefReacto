@@ -299,7 +299,10 @@ section {
     z-index: 2;
     opacity: 0;
     align-items: center;
+    padding: 0 20px;
+    text-align: center;
 }
+
 .overlay::after {
     content: "";
     position: absolute;
@@ -316,7 +319,12 @@ section {
     opacity: 0;
     z-index: -1;
 }
-article .box:hover .overlay,
+
+article .box:hover .overlay {
+  color: white;
+  opacity: 1;
+}
+
 article .box:hover .overlay::after
 {
 opacity: 1;
