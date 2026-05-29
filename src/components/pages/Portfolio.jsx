@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import list, { portfolio } from '../Data/dummyData'
+import React, { useState } from 'react'
+import { portfolio } from '../Data/dummyData'
 import { Visibility } from '@mui/icons-material'
 import Heading from '../common/Heading'
 import { motion, AnimatePresence } from 'framer-motion'
@@ -9,7 +9,7 @@ const Protofolio = () => {
   const allCategory = ['all', ...new Set(portfolio.map((item) => item.category))]
 
   const [list, setList] = useState(portfolio)
-  const [category, setCategory] = useState(allCategory)
+  const [category] = useState(allCategory)
   const [activeCategory, setActiveCategory] = useState('all')
   
   // Pagination State

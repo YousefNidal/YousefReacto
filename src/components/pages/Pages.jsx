@@ -2,8 +2,7 @@
 import {
     BrowserRouter as Router,
     Switch,
-    Route,
-    Link
+    Route
 } from "react-router-dom"
 import Header from '../common/Header'
 import Home from "../home/Home"
