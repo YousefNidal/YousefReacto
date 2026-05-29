@@ -306,7 +306,7 @@ section {
 }
 
 .hero.counter::after {
-  background-image: url("../public/images/some-facts-bg.png");
+  background-image: url("./assets/images/some-facts-bg.png");
   height: 50vh;
 }
 
@@ -490,7 +490,7 @@ article .box:hover .overlay::after {
 
 .testimonials::after {
   content: '';
-  background-image: url('../public/images/testimonials-bg.png');
+  background-image: url('./assets/images/testimonials-bg.png');
 }
 
 .testimonials .box {
