@@ -12,7 +12,7 @@ const Footer = () => {
                 <i key={i}>{item.icon}</i>
                 
             ))}
-            <p>All Rights Rescved 2024</p>
+            <p>All Rights Reserved 2026. Created by Yousef Nidal.</p>
         </footer>
 
     
